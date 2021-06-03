@@ -2,10 +2,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-  double x;
-  cout << "ENTER ANY NUMBER:";
-  cin >> x;
+int main(int argc, char *argv[]) {
+  double x = atof(argv[1]);
   cout << "SQUARE ROOT OF " << x << " is " << sqrt(x) << endl;
   return 0;
 }
