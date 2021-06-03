@@ -129,29 +129,29 @@ Tutorial/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/build
 .PHONY : Tutorial/fast
 
-tutorial.o: tutorial.cpp.o
+tutorial.o: tutorial.cxx.o
 .PHONY : tutorial.o
 
 # target to build an object file
-tutorial.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/tutorial.cpp.o
-.PHONY : tutorial.cpp.o
+tutorial.cxx.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/tutorial.cxx.o
+.PHONY : tutorial.cxx.o
 
-tutorial.i: tutorial.cpp.i
+tutorial.i: tutorial.cxx.i
 .PHONY : tutorial.i
 
 # target to preprocess a source file
-tutorial.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/tutorial.cpp.i
-.PHONY : tutorial.cpp.i
+tutorial.cxx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/tutorial.cxx.i
+.PHONY : tutorial.cxx.i
 
-tutorial.s: tutorial.cpp.s
+tutorial.s: tutorial.cxx.s
 .PHONY : tutorial.s
 
 # target to generate assembly for a file
-tutorial.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/tutorial.cpp.s
-.PHONY : tutorial.cpp.s
+tutorial.cxx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/tutorial.cxx.s
+.PHONY : tutorial.cxx.s
 
 # Help Target
 help:

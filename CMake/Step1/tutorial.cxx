@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
     cout << "Usage: " << argv[0] << " number" << endl;
     return 1;
   }
-  double x = atof(argv[1]);
-  cout << "SQUARE ROOT OF " << x << " is " << sqrt(x) << endl;
+  const double inputValue = stod(argv[1]);
+  cout << "SQUARE ROOT OF " << inputValue << " is " << sqrt(inputValue) << endl;
   return 0;
 }

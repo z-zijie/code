@@ -1,5 +1,5 @@
-CMakeFiles/Tutorial.dir/tutorial.cpp.o: \
- /home/zijie/Documents/code/CMake/Step1/tutorial.cpp \
+CMakeFiles/Tutorial.dir/tutorial.cxx.o: \
+ /home/zijie/Documents/code/CMake/Step1/tutorial.cxx \
  /usr/include/stdc-predef.h \
  /home/zijie/Documents/code/CMake/Step1_build/TutorialConfig.h \
  /usr/include/c++/10.2.0/cmath \

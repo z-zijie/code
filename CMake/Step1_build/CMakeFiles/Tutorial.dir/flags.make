@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/zijie/Documents/code/CMake/Step1_build
 
-CXX_FLAGS = 
+CXX_FLAGS = -std=gnu++11
 

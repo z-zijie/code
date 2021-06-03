@@ -69,28 +69,28 @@ include CMakeFiles/Tutorial.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Tutorial.dir/flags.make
 
-CMakeFiles/Tutorial.dir/tutorial.cpp.o: CMakeFiles/Tutorial.dir/flags.make
-CMakeFiles/Tutorial.dir/tutorial.cpp.o: /home/zijie/Documents/code/CMake/Step1/tutorial.cpp
-CMakeFiles/Tutorial.dir/tutorial.cpp.o: CMakeFiles/Tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zijie/Documents/code/CMake/Step1_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Tutorial.dir/tutorial.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tutorial.dir/tutorial.cpp.o -MF CMakeFiles/Tutorial.dir/tutorial.cpp.o.d -o CMakeFiles/Tutorial.dir/tutorial.cpp.o -c /home/zijie/Documents/code/CMake/Step1/tutorial.cpp
+CMakeFiles/Tutorial.dir/tutorial.cxx.o: CMakeFiles/Tutorial.dir/flags.make
+CMakeFiles/Tutorial.dir/tutorial.cxx.o: /home/zijie/Documents/code/CMake/Step1/tutorial.cxx
+CMakeFiles/Tutorial.dir/tutorial.cxx.o: CMakeFiles/Tutorial.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zijie/Documents/code/CMake/Step1_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Tutorial.dir/tutorial.cxx.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tutorial.dir/tutorial.cxx.o -MF CMakeFiles/Tutorial.dir/tutorial.cxx.o.d -o CMakeFiles/Tutorial.dir/tutorial.cxx.o -c /home/zijie/Documents/code/CMake/Step1/tutorial.cxx
 
-CMakeFiles/Tutorial.dir/tutorial.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tutorial.dir/tutorial.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zijie/Documents/code/CMake/Step1/tutorial.cpp > CMakeFiles/Tutorial.dir/tutorial.cpp.i
+CMakeFiles/Tutorial.dir/tutorial.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tutorial.dir/tutorial.cxx.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zijie/Documents/code/CMake/Step1/tutorial.cxx > CMakeFiles/Tutorial.dir/tutorial.cxx.i
 
-CMakeFiles/Tutorial.dir/tutorial.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tutorial.dir/tutorial.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zijie/Documents/code/CMake/Step1/tutorial.cpp -o CMakeFiles/Tutorial.dir/tutorial.cpp.s
+CMakeFiles/Tutorial.dir/tutorial.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tutorial.dir/tutorial.cxx.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zijie/Documents/code/CMake/Step1/tutorial.cxx -o CMakeFiles/Tutorial.dir/tutorial.cxx.s
 
 # Object files for target Tutorial
 Tutorial_OBJECTS = \
-"CMakeFiles/Tutorial.dir/tutorial.cpp.o"
+"CMakeFiles/Tutorial.dir/tutorial.cxx.o"
 
 # External object files for target Tutorial
 Tutorial_EXTERNAL_OBJECTS =
 
-Tutorial: CMakeFiles/Tutorial.dir/tutorial.cpp.o
+Tutorial: CMakeFiles/Tutorial.dir/tutorial.cxx.o
 Tutorial: CMakeFiles/Tutorial.dir/build.make
 Tutorial: CMakeFiles/Tutorial.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zijie/Documents/code/CMake/Step1_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Tutorial"
